@@ -1,0 +1,49 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "project_name": "A Random Quote Generator",
+            "description": "This project produces a random qoute and puts it into the html. It also changes the page's background color. Its activated by a button and by a 20 second timer.",
+            "technologies": ["JavaScript", "HTML", "CSS"],
+            "live_link": "https://haschc.github.io/Tech-degree-project-1/",
+            "github_link": "https://github.com/Haschc/Tech-degree-project-1",
+            "image_urls": ["/images/project screenshots/screenshot (2).png", "/images/project screenshots/screenshot (3).png", "/images/project screenshots/screenshot (4).png"]
+        },
+        {
+            "id": 2,
+            "project_name": "List Pagination and Filtering",
+            "description": "This is a list pagination and filtering app. I am attempting for exeeds expectations grade and have added the search bar with a button and keyup event listener.",
+            "technologies": ["JavaScript", "HTML", "CSS", "DOM"],
+            "live_link": " https://haschc.github.io/Tech-Degree-project-2/",
+            "github_link": "https://github.com/Haschc/Tech-Degree-project-2",
+            "image_urls": ["/images/project screenshots/screenshot (5).png", "/images/project screenshots/screenshot (6).png", "/images/project screenshots/screenshot (7).png"]
+        },
+        {
+            "id": 3,
+            "project_name": "Interactive Form",
+            "description": "An interactive form that uses jQuery and input validation.",
+            "technologies":["JavaScript", "HTML", "CSS", "jQuery", "Regular Expressions"],
+            "live_link": "https://haschc.github.io/Tech-degree-project-3/",
+            "github_link": "https://github.com/Haschc/Tech-degree-project-3",
+            "image_urls": ["/images/project screenshots/screenshot (8).png", "/images/project screenshots/screenshot (9).png", "/images/project screenshots/screenshot (10).png"]
+        },
+        {
+            "id": 4,
+            "project_name": "OOP Game Show App",
+            "description": "This is an app to play a hangman-esk type game. After you start the game you have five trys to guess the hidden word by using the online keyboard or your computer keyboard until you lose.",
+            "technologies": ["Object-Oriented JavaScript", "HTML", "CSS"],
+            "live_link": "https://haschc.github.io/Tech-degree-project-4/",
+            "github_link": "https://github.com/Haschc/Tech-degree-project-4",
+            "image_urls": ["/images/project screenshots/screenshot (11).png", "/images/project screenshots/screenshot (12).png", "/images/project screenshots/screenshot (13).png"]
+        },
+        {
+            "id": 5,
+            "project_name": "Public API Requests",
+            "description": "An app that gets employye data by API fetching then displays the data on the page.",
+            "technologies": ["JavaScript", "HTML", "CSS", "API", "Terminal", "HTTP", "AJAX"],
+            "live_link": "https://haschc.github.io/Tech-degree-project-5/",
+            "github_link": "https://github.com/Haschc/Tech-degree-project-5",
+            "image_urls": ["/images/project screenshots/screenshot (17).png", "/images/project screenshots/screenshot (18).png", "/images/project screenshots/screenshot (19).png"]
+        }
+    ]
+}
