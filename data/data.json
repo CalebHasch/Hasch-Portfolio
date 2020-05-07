@@ -7,7 +7,7 @@
             "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link": "https://haschc.github.io/Tech-degree-project-1/",
             "github_link": "https://github.com/Haschc/Tech-degree-project-1",
-            "image_urls": ["/images/project screenshots/screenshot (2).png", "/images/project screenshots/screenshot (3).png", "/images/project screenshots/screenshot (4).png"]
+            "image_urls": ["/project screenshots/Screenshot (2).png", "/project screenshots/Screenshot (3).png", "/project screenshots/Screenshot (4).png"]
         },
         {
             "id": 2,
@@ -16,7 +16,7 @@
             "technologies": ["JavaScript", "HTML", "CSS", "DOM"],
             "live_link": " https://haschc.github.io/Tech-Degree-project-2/",
             "github_link": "https://github.com/Haschc/Tech-Degree-project-2",
-            "image_urls": ["/images/project screenshots/screenshot (5).png", "/images/project screenshots/screenshot (6).png", "/images/project screenshots/screenshot (7).png"]
+            "image_urls": ["/project screenshots/Screenshot (5).png", "/project screenshots/Screenshot (6).png", "/project screenshots/Screenshot (7).png"]
         },
         {
             "id": 3,
@@ -25,7 +25,7 @@
             "technologies":["JavaScript", "HTML", "CSS", "jQuery", "Regular Expressions"],
             "live_link": "https://haschc.github.io/Tech-degree-project-3/",
             "github_link": "https://github.com/Haschc/Tech-degree-project-3",
-            "image_urls": ["/images/project screenshots/screenshot (8).png", "/images/project screenshots/screenshot (9).png", "/images/project screenshots/screenshot (10).png"]
+            "image_urls": ["/project screenshots/Screenshot (8).png", "/project screenshots/Screenshot (9).png", "/project screenshots/Screenshot (10).png"]
         },
         {
             "id": 4,
@@ -34,7 +34,7 @@
             "technologies": ["Object-Oriented JavaScript", "HTML", "CSS"],
             "live_link": "https://haschc.github.io/Tech-degree-project-4/",
             "github_link": "https://github.com/Haschc/Tech-degree-project-4",
-            "image_urls": ["/images/project screenshots/screenshot (11).png", "/images/project screenshots/screenshot (12).png", "/images/project screenshots/screenshot (13).png"]
+            "image_urls": ["/project screenshots/Screenshot (11).png", "/project screenshots/Screenshot (12).png", "/project screenshots/Screenshot (13).png"]
         },
         {
             "id": 5,
@@ -43,7 +43,7 @@
             "technologies": ["JavaScript", "HTML", "CSS", "API", "Terminal", "HTTP", "AJAX"],
             "live_link": "https://haschc.github.io/Tech-degree-project-5/",
             "github_link": "https://github.com/Haschc/Tech-degree-project-5",
-            "image_urls": ["/images/project screenshots/screenshot (17).png", "/images/project screenshots/screenshot (18).png", "/images/project screenshots/screenshot (19).png"]
+            "image_urls": ["/project screenshots/Screenshot (17).png", "/project screenshots/Screenshot (18).png", "/project screenshots/Screenshot (19).png"]
         }
     ]
 }

@@ -1,6 +1,6 @@
 var express = require('express');
 var path = require('path');
-var { projects } = require('../data/data.json');
+var { projects } = require('./data/data.json');
 
 var app = express();
 
@@ -9,7 +9,7 @@ app.set('view engine', 'pug');
 app.use('/static', express.static('public'));
 
 app.get('/', (req, res) => {
-    res.locals = data.projects
+    res.locals = projects.data
     res.render('index', { projects });
 });
 

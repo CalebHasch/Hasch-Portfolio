@@ -7,15 +7,14 @@ block content
       h1 The Hasch Projects Exhibition
 
       p.lead.text-light
-        | This project is to display to future employers and all the technical skills I've aquired and used by showing off my accomplishments.
+        | This project is to display my projects and all the technical skills I've aquired and used by showing off my accomplishments.
   article.grid-container.portfolio-index
     
     .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
 
       each project in projects
-
-      .cell
-        a(href=`/projects/${project.live_link}`)
-          img.thumbnail(src=`${project.image_urls[0]}`)
-          h5= project.project_name
-      
+        .cell
+          a(href=`/projects/${project.live_link}`)
+            img.thumbnail(src=`${project.image_urls}`)
+            h5= project.project_name
+        
