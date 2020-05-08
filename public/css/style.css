@@ -31,11 +31,13 @@ h1,h2,h3,h4,h5,p{
 }
 
 .button{
-  background-color: #333;
+  background-color: blue;
+  font-family: Lucida Console
 }
 
 .button:hover{
-  background-color: #111;
+  background-color: darkblue;
+  text-shadow: 2px 2px crimson;
 }
 
 a{
