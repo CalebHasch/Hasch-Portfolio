@@ -1,3 +1,4 @@
+// require dependencies
 var express = require('express');
 var path = require('path');
 var { projects } = require('./data/data.json');
@@ -8,15 +9,18 @@ app.set('view engine', 'pug');
 
 app.use('/static', express.static('public'));
 
+// render home page
 app.get('/', (req, res) => {
     res.locals = projects.data
     res.render('index', { projects });
 });
 
+// render about page
 app.get('/about', (req, res) => {
     res.render('about', { projects });
 });
 
+// dynamicallyn render project pages
 app.get('/projects/:id', (req, res) => {
     const projectId = req.params.id;
     const project = projects.find( ({ id }) => id === +projectId );
@@ -42,6 +46,7 @@ app.use((req, res, next) => {
         next(err);
 });
 
+// renders error.pug
 app.use(function(err, req, res, next) {
     res.locals.message = err.message;
     res.locals.error = req.app.get('env') === 'development' ? err : {};
