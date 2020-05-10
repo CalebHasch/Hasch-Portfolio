@@ -36,11 +36,19 @@ app.use((req, res, next) => {
         // Create new error to handle non-existent routes
         const err = new Error('err');
         err.status = 404;
-        err.message = 'Oops, page not found. Looks like that route does not exist.';
+        err.message = 'Uh oh, this is not the page you\'re looking for.';
       
         // Pass error to global error handler below
         next(err);
 });
+
+app.use(function(err, req, res, next) {
+    res.locals.message = err.message;
+    res.locals.error = req.app.get('env') === 'development' ? err : {};
+  
+    res.status(err.status || 500);
+    res.render('error');
+  });
 
 app.listen(3000, () => {
     console.log('Server listening on port 3000');
