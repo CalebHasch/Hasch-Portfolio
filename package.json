@@ -1,15 +1,19 @@
 {
+  "homepage": "https://haschc.github.io/Hasch-Portfolio",
   "name": "static_node_and_express_site-v1",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app"
+    "start": "node app",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
+    "gh-pages": "^5.0.0",
     "nodemon": "^2.0.3",
     "pug": "^2.0.4"
   }
